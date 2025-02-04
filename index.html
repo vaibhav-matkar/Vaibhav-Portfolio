@@ -5,44 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vaibhav Matkar - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <h1>Vaibhav Matkar</h1>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Vaibhav Matkar</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="images/profile.jpg" alt="Vaibhav Matkar">
+        <h1>Hi, I'm Vaibhav Matkar</h1>
         <p>AI/ML Developer | Data Analyst</p>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <a href="#contact" class="btn">Get in Touch</a>
     </header>
 
+    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>I am an AI/ML developer and data analyst...</p>
+        <p>I am an AI/ML developer and data analyst with a strong background in building intelligent solutions. Passionate about deep learning, data visualization, and business intelligence.</p>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
         <div class="project">
             <h3>Stock Market Portfolio Optimization</h3>
             <p>Developed a Python application for stock portfolio optimization...</p>
         </div>
+        <div class="project">
+            <h3>Medical Disease Prediction</h3>
+            <p>Created a machine learning model to predict diseases based on patient symptoms...</p>
+        </div>
     </section>
 
+    <!-- Experience Section -->
     <section id="experience">
         <h2>Experience</h2>
         <p>6 Months Internship at Stem World Pvt. Ltd. in Hyderabad.</p>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: vaibhav.matkar@example.com</p>
+        <p>Email: <a href="mailto:vaibhav.matkar@example.com">vaibhav.matkar@example.com</a></p>
         <p>GitHub: <a href="https://github.com/your-username">GitHub Profile</a></p>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
     </section>
+
+    <footer>
+        <p>© 2025 Vaibhav Matkar | All Rights Reserved</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
